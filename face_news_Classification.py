@@ -12,7 +12,7 @@ from tensorflow.keras.optimizers import Adam
 
 @st.cache
 def load_data():
-    url = 'https://drive.google.com/uc?id=1ZKVzTnCE-U5uMkopcBsPNj0LFtPTX3z4'
+    url = 'WELFake_Dataset.csv'
     df = pd.read_csv(url)
     return df
 
