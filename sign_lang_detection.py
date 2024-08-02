@@ -45,8 +45,8 @@ def evaluate_model(model, X_test, y_test):
 def main():
     st.title("Sign Language Detection")
 
-    train_url = 'https://drive.google.com/uc?id=17ly9f_lP6Ezy-_mQaAPYMCM3errdSNaA'
-    test_url = 'https://drive.google.com/uc?id=1-Bb4zCEkGe7wkSCXaeVSOd1Q3ezYR3zO'
+    train_url = 'sign_mnist_train.csv'
+    test_url = 'sign_mnist_test.csv'
 
     train_df, test_df = load_data(train_url, test_url)
 
